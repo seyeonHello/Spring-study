@@ -4,6 +4,7 @@ import hello.hellospring.service.MemberService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 
+//컴포넌트스캔
 @Controller
 public class MemberController {
     private final MemberService memberService;

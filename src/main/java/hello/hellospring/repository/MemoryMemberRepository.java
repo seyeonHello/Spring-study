@@ -4,7 +4,6 @@ import hello.hellospring.domain.Member;
 import org.springframework.stereotype.Repository;
 
 import java.util.*;
-@Repository
 public class MemoryMemberRepository implements MemberRepository{
     private static Map<Long, Member> store= new HashMap<>();
     //MemoryMemberRepository는 데이터 저장에 static 을 사용하고 있으므로 어떤 인스턴스든 같은 저장소를 사용하게 됨.
